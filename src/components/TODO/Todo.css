@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(to bottom, rgb(0, 85, 255), rgb(154, 191, 255));
+    min-height: 100vh;
+}
+.container{
+    width: 500px;
+    border: 1px solid black;
+    margin: 3rem auto 0;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 0 4px rgb(37, 25, 118);
+}
+input{
+    display: block;
+    width: 98%;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+#add-btn{
+    border: none;
+    padding: 12px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(47, 146, 47);
+    color: white;
+
+}
+.todo-container{
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+.todo-container h4,p{
+    margin: 5px 0;
+}
+#del-btn{
+    border: none;
+    background-color: rgb(163, 17, 17);
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+.add-btn-div{
+    text-align: right;
+}

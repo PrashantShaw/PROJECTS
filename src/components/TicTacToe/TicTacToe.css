@@ -1,0 +1,21 @@
+
+.XO-btn{
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+}
+.board{
+    width: 215px;
+    margin: 2rem auto; 
+}
+.label{
+    text-align: center;
+}
