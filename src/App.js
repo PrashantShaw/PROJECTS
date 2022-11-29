@@ -1,7 +1,7 @@
-// import TODO from "./components/TODO";
+import TODO from "./components/TODO";
 // import {RoutingBase} from "./components/Routing/RoutingBase";
 // import TicTacToe from "./components/TicTacToe/IndexTicTacToe";
-import NEWS from "./components/NEWS WEBSITE/News";
+// import NEWS from "./components/NEWS WEBSITE/News";
 // import CALCULATOR from "./components/Calculator/CALCULATOR";
 // import SNAKE_GAME from "./components/SNAKE_GAME/SNAKE_GAME";
 
@@ -10,10 +10,10 @@ import NEWS from "./components/NEWS WEBSITE/News";
 const App = function () {
 
   return <>
-    {/* <TODO/> */}
+    <TODO/>
     {/* <RoutingBase /> */}
     {/* < TicTacToe /> */}
-    < NEWS />
+    {/* < NEWS /> */}
     {/* <CALCULATOR /> */}
     {/* <SNAKE_GAME /> */}
   </>

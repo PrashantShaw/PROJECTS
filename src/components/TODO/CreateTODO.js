@@ -5,14 +5,14 @@ function CreateTodo() {
     const [todosList, setTodosList] = useState([])
     const [title, setTitle] = useState('')
     const [desc, setDescription] = useState('')
-    const hack = null;
+    // const hack = null;
 
     // GETTING FROM LOCAL STORAGE ON FIRST LOAD
     useEffect(() => {
-        localStorage.length > 0 &&
+        localStorage.getItem('TodosList') &&
             setTodosList(JSON.parse(localStorage.TodosList))
         console.log("Page deployed")
-    }, [hack])
+    }, [])
 
     // SETTING TO LOCAL STORAGE AFTER EVERY UPDATE
     useEffect(() => {
