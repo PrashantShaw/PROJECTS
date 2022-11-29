@@ -13,6 +13,7 @@ const Buttons = ({ btnChar, setExpression }) => {
                 }
                 else if (btnChar === '=') {
                     setExpression(exp => {
+                        // eslint-disable-next-line
                         return String(eval(exp))
                     })
                 }
